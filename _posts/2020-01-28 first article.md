@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HHello Wirld!
+title: Hello Wirld!
 ---
 
 {{ page.title }}
