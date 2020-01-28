@@ -22,7 +22,7 @@ title: WanJiang玩酱
   <h1>TOY 玩具知识</h1>
   <ul class="posts">
     
-     {% for post in site.category.toys %}
+     {% for post in site.categories.toys %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
     
