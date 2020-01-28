@@ -20,6 +20,12 @@ The company is [Replicated](http://replicated.com), and founders Grant Miller
 and Marc Campbell are making it easier to roll out an on-prem Enterprise
 offering based on an existing cloud-based SaaS product.
 
+很有疑似的
+分享率 = 活动数 / 下单数 * 100%；
+领取率 = 优惠券数 / （活动数 * 每个活动参与数）* 100% 每个活动参与数即表示每个活动允许多少用户领取；
+使用率 = 优惠券使用数 / （优惠券数 - 优惠券退券数） 如果优惠券可以退券，一般会把退券数刨除，也有是不刨除，主要看业务需求；
+拉新数 = 领取过优惠券的用户中，标记为新用户的数量
+
 At GitHub, we burned through **a lot** of developer cycles building our own
 installer (several times), securing the installation environment, coding an
 automated licensing management system, integrating single sign-on services
