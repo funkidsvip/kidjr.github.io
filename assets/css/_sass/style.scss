@@ -225,8 +225,22 @@ footer {
     margin: 1em 0;
 }
 
-li {
-    margin-left: 1.5rem;
+.nav{
+    height: 40px;
+    margin-top: 50px;
+
+    max-width: max-content;
+}
+
+nav ul {
+    list-style: none;
+    line-height: 40px;
+    margin-left: 50px;
+}
+
+nav li{
+    display: block;
+    float: left;
 }
 
 li a{
@@ -235,3 +249,4 @@ li a{
     &:hover{
      color: $text-color;
     }
+}
