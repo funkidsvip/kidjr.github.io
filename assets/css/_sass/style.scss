@@ -36,7 +36,13 @@ a {
     }
 }
 
-
+h a {
+    color: $brand-color;
+    text-decoration: none;
+    &:hover{
+     color: $text-color;
+    }
+}
 
 p a {
     color: $text-color;
