@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
     <title>left-arrow</title>
     <desc>Created with Sketch.</desc>
     <g id="left-arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <circle id="椭圆形" fill="#333333" cx="27" cy="27" r="27"></circle>
-        <g id="keyboard_arrow_left-24px-(1)" transform="translate(8.000000, 8.000000)">
-            <polygon id="路径" fill="#FFFFFF" fill-rule="nonzero" points="25 27.65 17.582996 20 25 12.35 22.7165992 10 13 20 22.7165992 30"></polygon>
-            <polygon id="路径" points="0 0 39 0 39 39 0 39"></polygon>
+        <circle id="椭圆形" fill="#333333" cx="20" cy="20" r="20"></circle>
+        <g id="keyboard_arrow_left-24px-(1)">
+            <polygon id="路径" fill="#FFFFFF" fill-rule="nonzero" points="25.6410256 28.3589744 18.033842 20.5128205 25.6410256 12.6666667 23.2990761 10.2564103 13.3333333 20.5128205 23.2990761 30.7692308"></polygon>
+            <polygon id="路径" points="0 0 40 0 40 40 0 40"></polygon>
         </g>
     </g>
 </svg>
