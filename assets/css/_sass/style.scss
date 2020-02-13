@@ -127,8 +127,8 @@ blockquote {
     @include media-query($on-laptop) {
         top: 90%;
         left: 90%;
-        height: 30px;
-        width: 30px;
+        height: 40px;
+        width: 40px;
         opacity: 0.6;
     }
 }
