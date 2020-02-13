@@ -224,3 +224,14 @@ footer {
 .divider {
     margin: 1em 0;
 }
+
+li {
+    margin-left: 1.5rem;
+}
+
+li a{
+    color: $link-color;
+    text-decoration: none;
+    &:hover{
+     color: $text-color;
+    }
