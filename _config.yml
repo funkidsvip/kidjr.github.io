@@ -1,29 +1,50 @@
-baseurl: "/shiori" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "http://ellekasai.github.io" # the base hostname & protocol for your site
-title: "Shiori"
+### your site title here
 
-# This is used by feed.xml. Uncomment if you want to use it.
-# description: "..."
+title: Hagura - Light!
+baseurl: /hagura # name of the repository
+email: your@email.com
 
-gems:
-  - jemoji
+
+
+highlighter: rouge
+markdown: kramdown
+
+
+paginate: 4
+
+
+# Tracker
+analytics: UA-83979019-4
+
+# Comments
+disqus-shortname: webjeda-demo
+
+
+#optimization
+#compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+include:
+  - _pages
+
 exclude:
-  - "README.md"
-  - "CHANGELOG.md"
-  - "CNAME"
-  - "Gemfile"
-  - "Gemfile.lock"
-permalink: :title
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+  - README.md
+  - LICENSE.md
+
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
