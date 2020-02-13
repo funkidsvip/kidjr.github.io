@@ -228,7 +228,6 @@ footer {
 .nav{
     height: 40px;
     margin-top: 50px;
-
     max-width: max-content;
 }
 
@@ -241,6 +240,7 @@ nav ul {
 nav li{
     display: block;
     float: left;
+    list-style-type: none;
 }
 
 li a{
