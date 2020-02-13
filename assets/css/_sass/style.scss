@@ -234,19 +234,19 @@ footer {
 .nav ul {
     list-style: none;
     line-height: 40px;
-    margin-left: 50px;
 }
 
 .nav li{
     display: block;
     float: left;
+    margin-left: 50px;
     list-style-type: none;
 }
 
 li a{
-    color: $link-color;
+    color: $grey-color;
     text-decoration: none;
     &:hover{
-     color: $text-color;
+     color: $link-color;
     }
 }
