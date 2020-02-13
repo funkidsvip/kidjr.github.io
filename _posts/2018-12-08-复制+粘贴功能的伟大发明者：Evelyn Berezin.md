@@ -3,8 +3,7 @@ layout: post
 title: 2019/12/08 复制+粘贴功能的伟大发明者：Evelyn Berezin
 ---
 
-{{ page.title }}
-================
+
 
 今天早上到公司例行打开readhub看到：Evelyn Berezin 于12月8日在美国纽约去世，享年93岁。
 
