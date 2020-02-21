@@ -1,6 +1,6 @@
 ---
 title: About Hagura
-layout: post
+layout: default
 permalink: /about/
 published: true
 ---
