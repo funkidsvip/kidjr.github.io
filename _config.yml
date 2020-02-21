@@ -13,7 +13,7 @@ markdown: kramdown
 
 
 paginate: 10
-
+paginate_path: "blog/page:num"
 
 # Tracker
 analytics: UA-91744613-2
