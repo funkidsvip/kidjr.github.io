@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-        max-width: $content-width;
+        max-width: $max-width;
         font-family: $base-font-family;
         margin: 0 auto;
         line-height: $base-line-height;
@@ -228,7 +228,7 @@ footer {
 .nav{
     height: 40px;
     margin: 1.5em 0;
-    max-width: max-content;
+    width: $max-width;
 }
 
 .nav ul {
@@ -240,7 +240,7 @@ footer {
 
 .nav li{
     display: block;
-    float: left;
+    float: right;
     margin-right: 2em;
     list-style-type: none;
 }
